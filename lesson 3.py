@@ -207,3 +207,5 @@ class Job:
 nick = Human(name="Nick")
 # print(list(brands_of_car))
 for day in range(1, 800):
+    if nick.live(day) == False:
+        break
