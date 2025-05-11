@@ -50,7 +50,7 @@ class Dog:
         self.is_alive()
 
 jack = Student(name="Jack")
-luna = Student(name="luna")
+luna = Student(name="Luna")
 simba = Student(name="Simba")
 for day in range(3650):
     if jack.alive == False:
